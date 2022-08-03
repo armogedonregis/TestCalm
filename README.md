@@ -11,7 +11,7 @@
  * React.js(Gatsby.js)
  * Styled-components
  * TailwindCss
-*Пакеты:*
+**Пакеты:**
  * React-responsive-modal
  * React-slick
 
