@@ -7,6 +7,14 @@
   Тестовое задание на должность "Frontend-разработчик"
 </h1>
 
+Стек:
+-React.js(Gatsby.js)
+-Styled-components
+-TailwindCss
+Пакеты:
+-React-responsive-modal
+-React-slick
+
 1.  **Установка пакетов.**
 
     ```shell
