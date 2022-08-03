@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom", 
+      "esnext", 
+      "dom.iterable"
+    ],
+    "jsx": "preserve",
+    "allowJs": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": false,
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "incremental": true
+  },
+  "include": [
+    "./src",
+    "./gatsby-node.ts", 
+    "./gatsby-browser.ts", 
+    "./gatsby-config.ts", 
+    "./plugins/**/*"],
+  "exclude": [
+    "node_modules"
+  ]
+}

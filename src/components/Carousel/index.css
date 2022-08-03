@@ -1,0 +1,27 @@
+.customOverlay {
+  background: #141414;
+}
+.customModal {
+  background: #141414;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+  .customModal {
+    
+    min-height: 550px;
+    margin: 0 -180px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .customModal {
+    min-width: 1298px;
+    min-height: 789px;
+  }
+}
